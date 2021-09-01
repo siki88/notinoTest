@@ -18,6 +18,7 @@ struct ProductDetailView: View {
 
 struct ProductDetailView_Previews: PreviewProvider {
     static var previews: some View {
+        //tudu: next version -> dynamic mock
         ProductDetailView(viewModel: ProductDetailVM(product: ProductListModel(id: "1",
                                                                                productId: 1,
                                                                                masterId: 1,

@@ -103,6 +103,7 @@ struct TextModifier: ViewModifier {
 
 struct ProductListCollectionCell_Previews: PreviewProvider {
     static var previews: some View {
+        //tudu: next version -> dynamic mock
         ProductListCollectionCell(viewModel: ProductListCollectionVM(product: ProductListModel(id: "1",
                                                                                                productId: 1,
                                                                                                masterId: 1,
